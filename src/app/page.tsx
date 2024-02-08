@@ -3,8 +3,9 @@ import { Footer } from "@/components/footer";
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh flex-col">
+    <div className="flex min-h-screen flex-col">
       <Header />
+      <main className="max-w-none"></main>
       <Footer />
     </div>
   );
