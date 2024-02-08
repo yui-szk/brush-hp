@@ -3,16 +3,15 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="flex h-20 items-center justify-center bg-slate-400">
+    <footer className="mt-auto flex h-20 items-center justify-center bg-slate-400">
       <p>&copy; 2024 Brush</p>
-      <Link href="https://www.instagram.com/brush_myu/" className="m-3">
-        <Image
-          src="/Instagram.svg"
-          alt="Instagram icon"
-          width={24}
-          height={24}
-        />
-      </Link>
+      <Image
+        className="m-3"
+        src="/Instagram.svg"
+        alt="Instagram icon"
+        width={28}
+        height={28}
+      />
     </footer>
   );
 }
