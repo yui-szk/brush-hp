@@ -1,3 +1,7 @@
 export default function Page() {
-  return <div>brush-hp</div>;
+  return (
+    <div className="flex min-h-screen flex-col">
+      <main className="max-w-none"></main>
+    </div>
+  );
 }
